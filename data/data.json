@@ -1,6 +1,144 @@
-{
+﻿{
   "rasa_nlu_data": {
-    "common_examples": [],
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Hello",
+            "entity": "Politesse"
+          }
+        ]
+      },
+      {
+        "text": "Hi",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "Hi",
+            "entity": "Politesse"
+          }
+        ]
+      },
+      {
+        "text": "Salut",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Salut",
+            "entity": "Politesse"
+          }
+        ]
+      },
+      {
+        "text": "Bonsoir",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Bonsoir",
+            "entity": "Politesse"
+          }
+        ]
+      },
+      {
+        "text": "Bonjour",
+        "intent": "greeting",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Bonjour",
+            "entity": "Politesse"
+          }
+        ]
+      },
+      {
+        "text": "Je veux rendre ma maison propre",
+        "intent": "book_room_washing",
+        "entities": []
+      },
+      {
+        "text": "Je veux réserver une agent d'entretien",
+        "intent": "book_room_washing",
+        "entities": [
+          {
+            "start": 20,
+            "end": 38,
+            "value": " agent d'entretien",
+            "entity": "Personel"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "réserver",
+            "entity": "Verbe de service"
+          }
+        ]
+      },
+      {
+        "text": "je veux entretenir ma maison",
+        "intent": "book_room_washing",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "entretenir",
+            "entity": "Verbe de service"
+          }
+        ]
+      },
+      {
+        "text": "Je veux me souscrire au service",
+        "intent": "get_subscribe",
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": " souscrire",
+            "entity": "Verbe de service"
+          }
+        ]
+      },
+      {
+        "text": "je veux un agent d'entretien régulièrement",
+        "intent": "get_subscribe",
+        "entities": [
+          {
+            "start": 29,
+            "end": 42,
+            "value": "régulièrement",
+            "entity": "Fréquence"
+          },
+          {
+            "start": 11,
+            "end": 28,
+            "value": "agent d'entretien",
+            "entity": "Personel"
+          }
+        ]
+      },
+      {
+        "text": "Au revoir",
+        "intent": "get_back",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Au revoir",
+            "entity": "Formule de retour"
+          }
+        ]
+      }
+    ],
     "regex_features": [],
     "entity_synonyms": []
   }
